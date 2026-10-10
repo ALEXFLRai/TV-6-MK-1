@@ -18,10 +18,7 @@ from nicegui import ui
 # НАСТРОЙКИ
 # ============================================================
 
-ADMIN_PASSWORD = "hffooA9GTMnpIZH1k0i!8^AHVqZ!L5l7"  # ПАРОЛЬ АДМИНИСТРАТОРА
-
-PORT = int(
-    os.getenv(
+    os.geten
         "TV6MK_PORT",
         "8000",
     )
